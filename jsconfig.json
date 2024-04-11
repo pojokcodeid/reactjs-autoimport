@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "ES2020",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "./": ["src"],
+      // "../*": ["src/*"],
+      "@component/*": ["src/component/*"],
+      "@page/*": ["src/page/*"],
+      "*": ["node_modules/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
